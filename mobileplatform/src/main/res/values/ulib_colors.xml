@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ulib_little_white">#f3f3f3</color>
+    <!-- 白色 -->
+    <color name="ulib_white">#ffffff</color>
+    <!-- 深天蓝色 -->
+    <color name="ulib_deepskyblue">#02a8f2</color>
+    <!-- 透明的 -->
+    <color name="ulib_transparent">#00000000</color>
+</resources>

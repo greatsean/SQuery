@@ -1,0 +1,46 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+ext {
+    configuration = [
+            package          : "com.sean.myquery",
+            buildToolsVersion: "25.0.2",
+            compileVersion   : 25,
+            minSdk           : 15,
+            targetSdk        : 25,
+            version_code     : 100,
+            version_name     : "1.0.0",
+    ]
+
+    libraries = [
+            supportVersion    : "25.3.1",
+            retrofit          : "2.3.0",
+            rxandroid         : "1.1.0",
+            dagger            : "2.0",
+            javax_annotation  : "10.0-b28",
+            butterknife       : "8.8.1",
+            glide             : "3.6.1",
+            recycler_animators: "2.1.0",
+            circleimageview   : "2.0.0"
+    ]
+}
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+        classpath 'com.jakewharton:butterknife-gradle-plugin:8.8.1'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        maven { url "https://jitpack.io" }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

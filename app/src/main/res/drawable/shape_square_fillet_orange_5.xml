@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 正方形圆角 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+	
+    
+    <solid android:color="#fff" />
+    <!-- 定义圆角（圆角半径是x） -->
+    <corners android:radius="1dp" />
+    <!-- 定义边框线（边框线宽度是x，颜色为白色） -->
+     <stroke
+         android:width="1dp"
+         android:color="#29a7e1" />
+
+</shape>

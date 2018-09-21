@@ -1,0 +1,9 @@
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ulib_pager_tab_itembg2"
+    android:button="@null"
+    android:gravity="center"
+    android:text="item_po"
+    android:textColor="@color/ulib_pager_tab_itemtxt_s2"
+    android:textSize="14sp" />

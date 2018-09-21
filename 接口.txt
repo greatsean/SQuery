@@ -1,0 +1,80 @@
+区排名：
+
+POST http://bzflh.szjs.gov.cn/TylhW/lhmcAction.do?method=queryLhmcInfo1 HTTP/1.1
+Host: bzflh.szjs.gov.cn
+Connection: keep-alive
+Content-Length: 128
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://bzflh.szjs.gov.cn
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://bzflh.szjs.gov.cn/TylhW/jsplib/lhccx/singlelhc_query1.jsp?code=b734e549fee1b0622a4c5781f248336e
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=e-OX1dcQz2q8DJwqTUqogRAjEVM0ZVvIy7srzOsELnZ0Zq7mJLuq!-1672484654; Hm_lvt_dd6366ebf5d0d037e356ae7ddb2a2fc3=1505131987,1505398637,1505700398,1505785926; Hm_lpvt_dd6366ebf5d0d037e356ae7ddb2a2fc3=1505786301
+
+pageNumber=1&pageSize=10&waitTpye=2&bahzh=BHR00072854&xingm=%25E6%259D%258E%25E6%25A0%25A1%25E8%25BE%2589&sfz=431023198904215859
+
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Sep 2017 02:00:44 GMT
+Content-Length: 190
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Servlet/3.0 JSP/2.2
+
+{"rows":[{"SHIFZSQR":"1","AREA_PAIX":20617,"WAIT_TPYE":"公共租赁住房","SHOULHZH":"BHR00072854","SFZH":"43102319890421****","XINGM":"李校辉","PAIX":73268,"PERSON_TYPE":"申请人"}]}
+
+
+
+
+
+
+市排名：
+POST http://bzflh.szjs.gov.cn/TylhW/lhmcAction.do?method=queryYgbLhmcList HTTP/1.1
+Host: bzflh.szjs.gov.cn
+Connection: keep-alive
+Content-Length: 68
+Accept: application/json, text/javascript, */*; q=0.01
+Origin: http://bzflh.szjs.gov.cn
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Referer: http://bzflh.szjs.gov.cn/TylhW/lhmcAction.do?method=queryYgbLhmcInfo&waittype=2
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=e-OX1dcQz2q8DJwqTUqogRAjEVM0ZVvIy7srzOsELnZ0Zq7mJLuq!-1672484654; Hm_lvt_dd6366ebf5d0d037e356ae7ddb2a2fc3=1505131987,1505398637,1505700398,1505785926; Hm_lpvt_dd6366ebf5d0d037e356ae7ddb2a2fc3=1505786578
+
+pageNumber=1&pageSize=10&waittype=2&num=0&shoulbahzh=&xingm=&idcard=
+
+
+HTTP/1.1 200 OK
+Date: Tue, 19 Sep 2017 02:03:00 GMT
+Content-Length: 3795
+Content-Type: text/html; charset=utf-8
+X-Powered-By: Servlet/3.0 JSP/2.2
+
+{"total":106501,"rows":[{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638205","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ002822","REMARK":"轮候基准时间为年满18周岁当日","RUHSJ":"1952-06-13","RZQK":null,"RGQK":null,"PAIX":1,"OUT_TIME":null,"LHCYXXB_ID":"3393639","SFZH":"44030119520613****","XINGM":"李细妹","NUM":null,"SHOUCCBSJ":"1985-09","SQB_ID":"33324"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638206","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ005840","REMARK":null,"RUHSJ":"1981-02-01","RZQK":null,"RGQK":null,"PAIX":2,"OUT_TIME":null,"LHCYXXB_ID":"3387070","SFZH":"44030119611202****","XINGM":"陈关梅","NUM":null,"SHOUCCBSJ":"1992-08","SQB_ID":"5722"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638207","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ005866","REMARK":null,"RUHSJ":"1981-03-01","RZQK":null,"RGQK":null,"PAIX":3,"OUT_TIME":null,"LHCYXXB_ID":"3393031","SFZH":"44030119620828****","XINGM":"谢艳萍","NUM":null,"SHOUCCBSJ":"1992-08","SQB_ID":"33133"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638208","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ021327","REMARK":null,"RUHSJ":"1981-06-25","RZQK":"放弃选房1次","RGQK":"已认购家庭放弃选房1次","PAIX":4,"OUT_TIME":null,"LHCYXXB_ID":"3390841","SFZH":"44030119430318****","XINGM":"彭启连","NUM":null,"SHOUCCBSJ":"1986-01","SQB_ID":"20660"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638209","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ005848","REMARK":null,"RUHSJ":"1981-10-20","RZQK":null,"RGQK":null,"PAIX":5,"OUT_TIME":null,"LHCYXXB_ID":"3387072","SFZH":"44030119621029****","XINGM":"邹金英","NUM":null,"SHOUCCBSJ":"1992-08","SQB_ID":"5728"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638210","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ027127","REMARK":null,"RUHSJ":"1983-04-17","RZQK":"放弃选房1次","RGQK":"已认购家庭放弃选房1次","PAIX":6,"OUT_TIME":null,"LHCYXXB_ID":"3395392","SFZH":"44030119470526****","XINGM":"陈秀梅","NUM":null,"SHOUCCBSJ":"1997-07","SQB_ID":"33928"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638211","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ006961","REMARK":"轮候基准时间为年满18周岁当日","RUHSJ":"1966-05-15","RZQK":null,"RGQK":null,"PAIX":7,"OUT_TIME":null,"LHCYXXB_ID":"3383046","SFZH":"44030119660515****","XINGM":"刘润辉","NUM":null,"SHOUCCBSJ":"2007-07","SQB_ID":"7043"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638212","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ016656","REMARK":"轮候基准时间为年满18周岁当月","RUHSJ":"1987-12-04","RZQK":null,"RGQK":null,"PAIX":8,"OUT_TIME":null,"LHCYXXB_ID":"3389315","SFZH":"44030119660919****","XINGM":"彭灿洪","NUM":null,"SHOUCCBSJ":"1984-08","SQB_ID":"16347"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638213","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ002199","REMARK":null,"RUHSJ":"1993-11-25","RZQK":null,"RGQK":null,"PAIX":9,"OUT_TIME":null,"LHCYXXB_ID":"3386131","SFZH":"46002219660126****","XINGM":"翁玉琼","NUM":null,"SHOUCCBSJ":"1984-09","SQB_ID":"2523"},{"QUA_DATE":null,"SHOUCCBSJ_GZ":"3年以上","LHMC_ID":"1638214","WAIT_TPYE":"2","OUTLH_FLAG":"0","SHOUCCBSJ_AJ":"五年以上","SHOULHZH":"BHJ029628","REMARK":null,"RUHSJ":"1985-01-29","RZQK":null,"RGQK":null,"PAIX":10,"OUT_TIME":null,"LHCYXXB_ID":"3392778","SFZH":"44030119611122****","XINGM":"陈洪亮","NUM":null,"SHOUCCBSJ":"2002-12","SQB_ID":"33069"}]}
+
+
+
+
+
+详情
+POST http://bzflh.szjs.gov.cn/TylhW/lhmcAction.do?method=queryDetailLhc&lhmcId=1638214&waittype=2 HTTP/1.1
+Host: bzflh.szjs.gov.cn
+Connection: keep-alive
+Content-Length: 32
+Cache-Control: max-age=0
+Origin: http://bzflh.szjs.gov.cn
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.86 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://bzflh.szjs.gov.cn/TylhW/lhmcAction.do?method=queryYgbLhmcInfo&waittype=2
+Accept-Encoding: gzip, deflate
+Accept-Language: zh-CN,zh;q=0.8
+Cookie: JSESSIONID=e-OX1dcQz2q8DJwqTUqogRAjEVM0ZVvIy7srzOsELnZ0Zq7mJLuq!-1672484654; Hm_lvt_dd6366ebf5d0d037e356ae7ddb2a2fc3=1505131987,1505398637,1505700398,1505785926; Hm_lpvt_dd6366ebf5d0d037e356ae7ddb2a2fc3=1505786578
+
+num=0&shoulbahzh=&xingm=&idcard=
+
